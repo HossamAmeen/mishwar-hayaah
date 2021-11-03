@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "cairo-bold";
+    src: url('../fonts/Cairo-Bold.ttf');
+  }
+  
+  @font-face {
+    font-family: "cairo-regular";
+    src: url('../fonts/Cairo-Regular.ttf');
+  }
+  
+  body {
+    direction: rtl;
+    font-family: "cairo-regular";
+  }
+  .partner-img{
+    display: block;
+    margin: auto;
+  }
+  .hidden-paragraph{
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 5; /* number of lines to show */
+   -webkit-box-orient: vertical;
+  }
+
+  @media (max-width: 1000px) {
+    .intro-image-image{
+      width: 250px !important;
+    }
+  }
+  @media (max-width: 600px) {
+    .our-partner{
+      flex-flow: column;
+    }
+    .intro-image{
+      display: none;
+    }
+  }
