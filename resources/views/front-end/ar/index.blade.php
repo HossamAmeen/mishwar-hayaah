@@ -40,9 +40,8 @@
               alt="..." /></div>
           <div class="col-md-7 col-lg-6 text-md-end text-center">
             <h1 class="text-light fs-md-5 fs-lg-6">مشوار حياة</h1>
-            <p class="text-light">حتى هاربر موسكو ثم, وتقهقر المنتصرة حدة عل, التي فهرست واشتدّت أن أسرحتى هاربر موسكو
-              ثم, وتقهقر المنتصرة حدة عل, التي فهرست واشتدّت أن أسر </p>
-            <a class="btn btn-primary intro-btn" href="./contact-us.html" role="button">تواصل معنا</a>
+            <p class="text-light">ترتكز جمعية مشوار حياة في أسيوط على محور أساسي وهو تركيز جهود الأفراد والجماعات لإحداث التنمية في المجتمع وحل مشكلاتهم والإسهام في مؤازرة جهود الدولة فى تلبية الاحتياجات الإنسانية والاجتماعية والاقتصادية داخل المحافظة.</p>
+            <a class="btn btn-primary intro-btn" href="{{url('contact-us')}}" role="button">تواصل معنا</a>
           </div>
         </div>
       </div>
@@ -54,7 +53,7 @@
         <div class="row">
           <div class="col-lg-6 col-xxl-5 text-center mx-auto">
             <h2>مشوار حياة</h2>
-            <p class="mb-4">كما أن وقام وبدأت, لم أدوات للمجهود بلا.</p>
+            <p class="mb-4">مشوار حياة .. مشوار الخير والعطاء</p>
           </div>
         </div>
         <div class="row align-items-center mt-5">
@@ -65,23 +64,22 @@
                 width="30" />
               <div class="flex-1 mr-3">
                 <h5>نسعى لتنمية المجتمع</h5>
-                <p class="text-muted mb-4">حتى هاربر موسكو ثم, وتقهقر المنتصرة حدة عل, التي فهرست واشتدّت أن أسر</p>
+                <p class="text-muted mb-4">عن طريق تقديم الخدمات الثقافية والتعليمية والدينية والاقتصادية	 وتقديم المساعدات الإنسانية لذوي الحاجة داخل المحافظة للارتقاء بهم بإكسابهم المهارات التي يحتاجونها للارتقاء بالمجتمع.</p>
               </div>
             </div>
             <div class="d-flex align-items-start"><img class="me-4" src="{{asset('assets/img/icons/check.png')}}" alt=""
                 width="30" />
               <div class="flex-1 mr-3">
                 <h5>ننشر روح المساعدة</h5>
-                <p class="text-muted mb-4">كانت المتاخمة التغييرات أم وفي. ان وانتهاءً باستحداث قهر. ان ضمنها للأراضي
-                  الأوروبية ذات.</p>
+                <p class="text-muted mb-4">عن طريق المساهمة في المجالات المختلفة مثل : 
+                  مكافحة الأمية، خلق فرص العمل من خلال تشجيع ومساندة المشروعات الصغيرة وأنشطة التشغيل الذاتي وأنشطة رعاية الأسرة والأمومة والطفولة وذوي الاحتياجات الخاصة.</p>
               </div>
             </div>
             <div class="d-flex align-items-start"><img class="me-4" src="{{asset('assets/img/icons/check.png')}}" alt=""
                 width="30" />
               <div class="flex-1 mr-3">
                 <h5>لبناء امه جديدة</h5>
-                <p class="text-muted mb-4">كما أن وقام وبدأت, لم أدوات للمجهود بلا. إذ لها الأول الستار, تحت وصغار مدينة
-                  عل. أي بحشد ليرتفع الساحلية أما, ليركز الهادي للأسطول ما هذا</p>
+                <p class="text-muted mb-4">عن طريق إبراز أهمية العمل الخيري والتطوعي في تنشئة جيل جديد قادر على النهوض بمجتمعه وإعلاء قيم الخير والتكافل والتماسك الاجتماعي.</p>
               </div>
             </div>
           </div>
@@ -143,15 +141,11 @@
                 <div class="row">
                   <div class="col-lg-6 col-xxl-5 text-center mx-auto mb-2">
                     <h2 class="mb-3">انضم الي جمعية مشوار حياة</h2>
-                    <p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
-                      أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم,كيواس نوستريد
-                      أكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات . ديواس
-                      أيوتي أريري دولار إن ريبريهينديرأيت فوليوبتاتي فيلايت أيسسي كايلليوم دولار أيو فيجايت
-                    </p>
+                    <p>وساهم معنا في مجال الخدمات الاجتماعية والثقافية وساعدنا في تحقيق مستوى معيشي أفضل لمن يستحق.</p>
                   </div>
                 </div>
                 <div class="text-center">
-                  <a class="btn btn-light" href="contact-us.html" role="button">انضم الينا</a>
+                  <a class="btn btn-light" href="{{url('contact-us')}}" role="button">انضم الينا</a>
                 </div>
               </div>
             </div>
@@ -181,30 +175,37 @@
             <!-- carousel item 1  -->
             <!-- first only must has `active` class -->
             @php
-            $counter = 1 ;
+            $counter = 0 ;
             @endphp
 
-            <div class="carousel-item active" data-bs-interval="10000">
-              <div class="row h-100">
-                @foreach($galleries as $gallery)
-                <!-- card 1 -->
-                  <div class="col-lg-3 mb-3 mb-md-0">
+        
+              @foreach($galleries as $gallery)  
+              <div class="carousel-item @if ($loop->first) active @endif" data-bs-interval="10000">
+                <div class="row h-100">
 
-                    <div class="card card-span h-100 bg-transparent">
-                      <div class="card-body my-2">
-                        <div class="text-center"><img class="img-fluid " src="{{asset('assets/img/gallery/حفل.jpg')}}"
-                            height="100" alt="..." />
-                          <div class="flex-1 ps-2">
-                            <p class="my-3">حفل ايتام المقام في محافظة اسيوط - مدينه الفتح - حديقة الفتح</p>
-                            <h6 class="text-muted">20/1/2019</h6>
+                 
+                  @foreach($gallery as $gallerys) 
+                  <!-- card {{$gallerys->id}}   -->
+                    <div class="col-lg-3 mb-3 mb-md-0">
+                                    {{-- @php $count++ ; @endphp --}}
+                      <div class="card card-span h-100 bg-transparent">
+                        <div class="card-body my-2">
+                          <div class="text-center"><img class="img-fluid " src="{{asset($gallerys->image)}}"
+                              height="100" alt="..." />
+                            <div class="flex-1 ps-2">
+                              <p class="my-3">{{$gallerys->description }} </p>
+                              <h6 class="text-muted">{{$gallerys->date}}</h6>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
+                    @endforeach
                   </div>
+                </div>
                   @endforeach
-              </div>
-            </div>
+          
+             
           </div>
 
           <!-- left arrow -->
@@ -228,10 +229,10 @@
 
                 <!-- point for every carousel item -->
                 <!-- first only must has `active` class -->
-                <li class="active" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"></li>
-                <li data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></li>
-                <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
-                <li data-bs-target="#carouselExampleDark" data-bs-slide-to="3"></li>
+                <li   class="active"  data-bs-target="#carouselExampleDark" data-bs-slide-to="0"></li>
+                @for($i=1 ;$i<= count($galleries)-1 ;$i++) 
+                  <li data-bs-target="#carouselExampleDark" data-bs-slide-to="{{$i}}"></li>
+                @endfor
               </ol>
             </div>
           </div>
@@ -258,86 +259,10 @@
     </section>
 
 
-    <!-- footer -->
-    <section class="py-0 py-xxl-6" id="footer">
-      <!-- backgground -->
-      <div class="bg-holder"
-        style="min-height: 102%!important;background-image:url({{asset('assets/img/gallery/footer.png')}});background-position:initial;background-size:cover;">
-      </div>
-
-      <div class="container">
-        <div class="row min-vh-75 text-center min-vh-xl-50 pt-10">
-          <div class="col-6 col-md-6 col-xl-6 col-md-12 col-sm-12 col-xs-12  ">
-            <h5 class="lh-lg fw-bold text-black">اهم الروابط</h5>
-            <ul class="list-unstyled mb-md-4 mb-lg-0">
-              <li class="lh-lg"><a class="text-200 text-decoration-none" href="news.html"
-                  style="color: rgb(71, 71, 71) !important;"> الاخبار والانشطة</a></li>
-              <li class="lh-lg"><a class="text-200 text-decoration-none" href="index.html#photos"
-                  style="color: rgb(71, 71, 71) !important;">الصور والفاعليات</a></li>
-              <li class="lh-lg"><a class="text-200 text-decoration-none" href="contact-us.html"
-                  style="color: rgb(71, 71, 71) !important;">تواصل معنا</a></li>
-            </ul>
-          </div>
-          <div class="col-6 col-md-5 col-xl-6 col-md-12 col-sm-12 col-xs-12  ">
-            <h5 class="lh-lg fw-bold text-black">من نحن</h5>
-            <ul class="list-unstyled mb-md-4 mb-lg-0">
-              <li class="lh-md pl-5 pr-5 mb-5">
-                <p class="text-100 text-decoration-none" style="color: rgb(71, 71, 71) !important;">خسائر اللازمة
-                  ومطالبة حدة بل. الآخر الحلفاء أن غزو, إجلاء وتنامت عدد مع. لقهر معركة لبلجيكا، بـ انه, ربع الأثنان
-                  المقيتة في, اقتصّت المحور حدة و. هذه ما طرفاً عالمية استسلام, الصين وتنامت حين ٣٠, ونتج والحزب المذابح
-                  كل جوي. أسر كارثة المشتّتون بل, وبعض وبداية الصفحة غزو قد, أي بحث تعداد الجنوب</p>
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-6 col-md-6 col-xl-6 col-md-12 col-sm-12 col-xs-12   mb-3">
-            <h5 class="lh-lg fw-bold text-black">فروعنا</h5>
-            <ul class="list-unstyled mb-md-4 mb-lg-0">
-              <li class="lh-md pl-5 pr-5">
-                <p class="text-100 text-decoration-none" style="color: rgb(71, 71, 71) !important;">اسيوط - شارع
-                  الجمهورية</p>
-              </li>
-              <li class="lh-md pl-5 pr-5">
-                <p class="text-100 text-decoration-none" style="color: rgb(71, 71, 71) !important;">المنيا - شارع
-                  الجمهورية</p>
-              </li>
-              <li class="lh-md pl-5 pr-5">
-                <p class="text-100 text-decoration-none" style="color: rgb(71, 71, 71) !important;">القاهرة - شارع
-                  الجمهورية</p>
-              </li>
-
-            </ul>
-          </div>
-          <div class="col-6 col-md-6 col-xl-6 col-md-12 col-sm-12 col-xs-12  ">
-            <h5 class="lh-lg fw-bold text-black">تواصل معنا</h5>
-            <ul class="list-unstyled mb-md-4 mb-lg-0">
-              <!-- put phone in href also -->
-              <li class="lh-md pl-5 pr-5">
-                <p class="text-100 text-decoration-none" style="color: rgb(71, 71, 71) !important;"><a
-                    style="color: rgb(71, 71, 71) !important;" href="tel://010">010</a></p>
-              </li>
-
-              <!-- put email in href also -->
-              <li class="lh-md pl-5 pr-5">
-                <p class="text-100 text-decoration-none" style="color: rgb(71, 71, 71) !important;"><a
-                    style="color: rgb(71, 71, 71) !important;" href="email://asd@ads.com">asd@asd.com</a></p>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <hr style="background-color: rgb(0, 0, 0);" />
-        <div class="row flex-center pb-3">
-          <div class="col-md-12">
-            <p class="text-200 text-center" style="color:black !important"> <a class="text-200 fw-bold"
-                style="color:black !important" href="https://fb.com/AxesDigitalAgency" target="_blank">AXES Digital
-                Agency<img class="mr-3" src="{{asset('assets/img/gallery/axesLogo.png')}}" width="40px"> </a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+      <!-- footer -->
+      @include('front-end.ar.footer')
   </main>
-
+  {{--          briefs --}}
 
 
   <script src="{{asset('vendors/@popperjs/popper.min.js')}}"></script>

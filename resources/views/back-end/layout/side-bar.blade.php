@@ -14,8 +14,8 @@
 
     <!--Phone Navigation Menu icon start-->
     <div class="phone-nav-box visible-xs">
-        <a class="phone-logo" href="index.html" title="">
-            <h1>eslam</h1>
+        <a class="phone-logo" href="{{url('/')}}" title="">
+            <h1>{{$briefs->title}}</h1>
         </a>
         <a class="phone-nav-control" href="javascript:void(0)">
             <span class="fa fa-bars"></span>

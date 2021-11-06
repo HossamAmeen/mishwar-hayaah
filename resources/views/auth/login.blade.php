@@ -149,7 +149,7 @@
                                     </button>
 
 
-                                    <a class="forgot-password" href="#forget-password">Forgot password</a>
+                                    {{-- <a class="forgot-password" href="#forget-password">Forgot password</a> --}}
                                 </div>
                             </form>
                         </div>

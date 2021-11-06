@@ -65,6 +65,20 @@
                                       @enderror
                                 </div>
                             </div>
+                            @php $input = "address"; @endphp
+                            <div class="form-group">
+                                <label class="col-lg-2 control-label">العنوان</label>
+
+                                <div class="col-lg-10">
+                                    <input type="text" name="{{ $input }}"  value="{{ isset($row) ? $row->{$input} : Request::old($input) }} "
+                                      class="form-control">
+                                      @error($input)
+                                      <span class="invalid-feedback" role="alert">
+                                               <strong>{{ $message }}</strong>
+                                      </span>
+                                      @enderror
+                                </div>
+                            </div>
                             @php $input = "home_description"; @endphp
                             <div class="form-group">
                                 <label class="col-lg-2 control-label">وصف الرئيسيه</label>
@@ -79,6 +93,7 @@
                                       @enderror
                                 </div>
                             </div>
+
                             @php $input = "en_home_description"; @endphp
                             <div class="form-group">
                                 <label class="col-lg-2 control-label"> وصف الرئيسيه بالانجليزي</label>

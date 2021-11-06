@@ -65,6 +65,12 @@ class HomeController extends Controller
             $pageTitle = "الرئيسيه";
             $news = News::all()->sortByDesc("id")->take(4);
             $galleries = Gallery::orderBy('id', 'DESC')->get();
+            $galleries = $galleries->chunk(4);
+            // foreach($galleries as $item)
+            // {
+            //     return $item[0];
+            // }
+            // return $galleries;
             $partners = Partner::orderBy('id', 'DESC')->get();
         return view("front-end.$this->lang.index" , compact('pageTitle' , 'news' ,'galleries' , 'partners'));
     }
@@ -243,24 +249,46 @@ class HomeController extends Controller
     }
 
 
-    public function contactUs()
+    public function contactUs(Request $request)
     {
         $pageTitle  = "تواصل معانا";
-     
+        if ($request->isMethod('post')) {
+
+            $rules = $this->contactFormValidation();
+            
+            $this->validate($request, $rules );
+            
+            $data=[
+                'name' =>  $request->name,
+                'phone' => $request->phone,
+                'message'=>$request->message,
+            ];
+            // return "test";
+            Mail::send('front-end.en.contact_mail',$data,function($message) use ($data){
+
+                // $message->from( $data['email'] , $data['name']);
+                $message->to("hr@mishwarhayaah.org");
+                $message->subject("contact us");
+            });
+            $request->session()->flash('action', 'تم الارسال بنجاح');
+            return "test";
+            return redirect()->back();
+        }
       
         return view('front-end.'.$this->lang.'.contact-us', compact('pageTitle'));
     }
 
 
 
-    function bookFormValidation()
+    function contactFormValidation()
     {
 
 
         return array(
             'name' => 'regex:/^[\pL\s\d\-]+$/u|required|max:99',
             'phone' => 'regex:/^[\d]+$/u|required|digits:11',
-            'note' => 'regex:/^[\pL\s\-]+$/u||required',
+            'email' => 'email|required',
+            'message' => 'regex:/^[\pL\s\-]+$/u||required',
 
         );
     }

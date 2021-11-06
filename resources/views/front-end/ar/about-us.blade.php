@@ -45,26 +45,30 @@
           <div class="col-md-4">
             <div style="background-color:rgb(255, 255, 255);padding: 20px;border-radius: 5px;min-height: 230px;max-height: 230px;">
               <h4 class="mb-4">من نحن</h4>
-              <p class="hidden-paragraph" title="كما أن وقام وبدأت, لم أدوات للمجهود بلا. إذ لها الأول الستار, تحت وصغار مدينة عل. أي بحشد ليرتفع الساحلية أما, ليركز الهادي للأسطول ما هذا">
-                كما أن وقام وبدأت, لم أدوات للمجهود بلا. إذ لها الأول الستار, تحت وصغار مدينة عل. أي بحشد ليرتفع الساحلية أما, ليركز الهادي للأسطول ما هذا
+              <p class="hidden-paragraph" title="جمعية مشوار حياة المشهرة برقم 1844 لسنة 2021.
+              مؤسسة ذات وظائف متعددة، ولديها العديد من الأهداف الاجتماعية والثقافية المتنوعة والتي تساعد في تنمية المجتمع.">
+                جمعية مشوار حياة المشهرة برقم 1844 لسنة 2021.
+مؤسسة ذات وظائف متعددة، ولديها العديد من الأهداف الاجتماعية والثقافية المتنوعة والتي تساعد في تنمية المجتمع.
               </p>
             </div>
           </div>
 
           <div class="col-md-4">
             <div style="background-color:rgb(255, 255, 255);padding: 20px;border-radius: 5px;min-height: 230px;max-height: 230px;">
-              <h4 class="mb-4">هدفنا</h4>
-              <p class="hidden-paragraph" title="كما أن وقام وبدأت, لم أدوات للمجهود بلا. إذ لها الأول للأسطول ما هذا">
-                كما أن وقام وبدأت, لم أدوات للمجهود بلا. إذ لها الأول للأسطول ما هذا
+              <h4 class="mb-4">هدفنا ومهمتنا </h4>
+              <p class="hidden-paragraph" title="ايصال المساعدات لمن يستحق ومساعدتهم في تحقيق مستوى معيشي أفضل يساعد في رفع الحالة الاجتماعية داخل المحافظة.">
+                ايصال المساعدات لمن يستحق ومساعدتهم في تحقيق مستوى معيشي أفضل يساعد في رفع الحالة الاجتماعية داخل المحافظة.
               </p>
             </div>
           </div>
 
           <div class="col-md-4">
             <div style="background-color:rgb(255, 255, 255);padding: 20px;border-radius: 5px;min-height: 230px;max-height: 230px;">
-              <h4 class="mb-4">مهمتنا</h4>
-              <p class="hidden-paragraph" title="كما أن وقام وبدأت, لم أدوات للمجهود بلا. إذ لها كما أن وقام وبدأت, لم أدوات للمجهود بلا. إذ لها الأول الستار, تحت وصغار مدينة عل. أي بحشد ليرتفع الساحلية أما, إذ لها الأول الستار, تحت وصغار مدينة عل. أي بحشد ليرتفع الساحلية أما, ليركز الهادي للأسطول ما هذا">
-                كما أن وقام وبدأت, لم أدوات للمجهود بلا. إذ لها كما أن وقام وبدأت, لم أدوات للمجهود بلا. إذ لها الأول الستار, تحت وصغار مدينة عل. أي بحشد ليرتفع الساحلية أما, إذ لها الأول الستار, تحت وصغار مدينة عل. أي بحشد ليرتفع الساحلية أما, ليركز الهادي للأسطول ما هذا
+              <h4 class="mb-4">انضم لنا</h4>
+              <p class="hidden-paragraph" title="انضم الي جمعية مشوار حياة 
+              وساهم معنا في مجال الخدمات الاجتماعية والثقافية وساعدنا في تحقيق مستوى معيشي أفضل لمن يستحق.">
+                انضم الي جمعية مشوار حياة 
+وساهم معنا في مجال الخدمات الاجتماعية والثقافية وساعدنا في تحقيق مستوى معيشي أفضل لمن يستحق.
               </p>
             </div>
           </div>
@@ -93,85 +97,8 @@
       </section>
 
 
-
  <!-- footer -->
- <section class="py-0 py-xxl-6" id="footer">
-  <!-- backgground -->
-  <div class="bg-holder"
-    style="min-height: 102%!important;background-image:url({{asset('assets/img/gallery/footer.png')}});background-position:initial;background-size:cover;">
-  </div>
-
-  <div class="container">
-    <div class="row min-vh-75 text-center min-vh-xl-50 pt-10">
-      <div class="col-6 col-md-6 col-xl-6 col-md-12 col-sm-12 col-xs-12  ">
-        <h5 class="lh-lg fw-bold text-black">اهم الروابط</h5>
-        <ul class="list-unstyled mb-md-4 mb-lg-0">
-          <li class="lh-lg"><a class="text-200 text-decoration-none" href="news.html"
-              style="color: rgb(71, 71, 71) !important;"> الاخبار والانشطة</a></li>
-          <li class="lh-lg"><a class="text-200 text-decoration-none" href="index.html#photos"
-              style="color: rgb(71, 71, 71) !important;">الصور والفاعليات</a></li>
-          <li class="lh-lg"><a class="text-200 text-decoration-none" href="contact-us.html"
-              style="color: rgb(71, 71, 71) !important;">تواصل معنا</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md-5 col-xl-6 col-md-12 col-sm-12 col-xs-12  ">
-        <h5 class="lh-lg fw-bold text-black">من نحن</h5>
-        <ul class="list-unstyled mb-md-4 mb-lg-0">
-          <li class="lh-md pl-5 pr-5 mb-5">
-            <p class="text-100 text-decoration-none" style="color: rgb(71, 71, 71) !important;">خسائر اللازمة
-              ومطالبة حدة بل. الآخر الحلفاء أن غزو, إجلاء وتنامت عدد مع. لقهر معركة لبلجيكا، بـ انه, ربع الأثنان
-              المقيتة في, اقتصّت المحور حدة و. هذه ما طرفاً عالمية استسلام, الصين وتنامت حين ٣٠, ونتج والحزب المذابح
-              كل جوي. أسر كارثة المشتّتون بل, وبعض وبداية الصفحة غزو قد, أي بحث تعداد الجنوب</p>
-          </li>
-        </ul>
-      </div>
-
-      <div class="col-6 col-md-6 col-xl-6 col-md-12 col-sm-12 col-xs-12   mb-3">
-        <h5 class="lh-lg fw-bold text-black">فروعنا</h5>
-        <ul class="list-unstyled mb-md-4 mb-lg-0">
-          <li class="lh-md pl-5 pr-5">
-            <p class="text-100 text-decoration-none" style="color: rgb(71, 71, 71) !important;">اسيوط - شارع
-              الجمهورية</p>
-          </li>
-          <li class="lh-md pl-5 pr-5">
-            <p class="text-100 text-decoration-none" style="color: rgb(71, 71, 71) !important;">المنيا - شارع
-              الجمهورية</p>
-          </li>
-          <li class="lh-md pl-5 pr-5">
-            <p class="text-100 text-decoration-none" style="color: rgb(71, 71, 71) !important;">القاهرة - شارع
-              الجمهورية</p>
-          </li>
-
-        </ul>
-      </div>
-      <div class="col-6 col-md-6 col-xl-6 col-md-12 col-sm-12 col-xs-12  ">
-        <h5 class="lh-lg fw-bold text-black">تواصل معنا</h5>
-        <ul class="list-unstyled mb-md-4 mb-lg-0">
-          <!-- put phone in href also -->
-          <li class="lh-md pl-5 pr-5">
-            <p class="text-100 text-decoration-none" style="color: rgb(71, 71, 71) !important;"><a
-                style="color: rgb(71, 71, 71) !important;" href="tel://010">010</a></p>
-          </li>
-
-          <!-- put email in href also -->
-          <li class="lh-md pl-5 pr-5">
-            <p class="text-100 text-decoration-none" style="color: rgb(71, 71, 71) !important;"><a
-                style="color: rgb(71, 71, 71) !important;" href="email://asd@ads.com">asd@asd.com</a></p>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <hr style="background-color: rgb(0, 0, 0);" />
-    <div class="row flex-center pb-3">
-      <div class="col-md-12">
-        <p class="text-200 text-center" style="color:black !important"> <a class="text-200 fw-bold"
-            style="color:black !important" href="https://fb.com/AxesDigitalAgency" target="_blank">AXES Digital
-            Agency<img class="mr-3" src="{{asset('assets/img/gallery/axesLogo.png')}}" width="40px"> </a>
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
+ @include('front-end.ar.footer')
 </main>
 
 

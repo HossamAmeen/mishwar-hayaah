@@ -29,9 +29,10 @@ $factory->define(App\Models\Configration::class, function (Faker $faker) {
         'email' => $faker->safeEmail,
         'title' => "مشوار حياه",
         'en_title' =>  $faker->name,
-        // 'description' => $faker->text,
-        // 'en_description' => $faker->text,
         // 'home_description' => $faker->text,
+        // 'en_description' => $faker->text,
+        'description' => "جمعية مشوار حياة المشهرة برقم 1844 لسنة 2021.
+        مؤسسة ذات وظائف متعددة، ولديها العديد من الأهداف الاجتماعية والثقافية المتنوعة والتي تساعد في تنمية المجتمع.",
         // 'en_home_description' => $faker->text,
         'phone' => $faker->e164PhoneNumber,
         'address' =>$faker->address ,
