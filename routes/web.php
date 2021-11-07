@@ -17,7 +17,7 @@ Route::prefix('admin')->group(function(){
         Route::resource('partners', 'PartnerController');
         Route::resource('services', 'ServiceController');
         Route::resource('galleries', 'GalleryController');   
-        Route::resource('questions', 'QuestionController');  
+        Route::resource('complaints', 'ComplaintController');  
         Route::resource('videos', 'VideoController'); 
     });
 });

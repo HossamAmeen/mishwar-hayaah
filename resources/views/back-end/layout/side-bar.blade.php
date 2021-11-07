@@ -59,19 +59,20 @@
             </a>
 
         </li>
-        {{-- <li class="{{is_active('videos')}}">
-            <a href="{{route('videos.index')}}"  class="{{is_active('videos')}}">
-                    <i class="fa fa-image"></i><span>فديوهات</span>
-            </a>
-
-        </li>
-         --}}
+     
+        
         <li class="{{is_active('news')}}">
             <a href="{{route('news.index')}}"  class="{{is_active('news')}}">
                     <i class="far fa-newspaper"></i><span>الأخبار</span>
             </a>
 
         </li> 
+        <li class="{{is_active('complaints')}}">
+            <a href="{{route('complaints.index')}}"  class="{{is_active('complaints')}}">
+                    <i class="fa fa-image"></i><span>الشكاوي</span>
+            </a>
+
+        </li>
        {{-- <li class="{{is_active('articles')}}">
             <a href="{{route('articles.index')}}"  class="{{is_active('articles')}}">
                     <i class="fa fa-image"></i><span>المقالات</span>

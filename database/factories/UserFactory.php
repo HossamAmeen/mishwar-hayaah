@@ -58,6 +58,19 @@ $factory->define(App\Models\News::class, function (Faker $faker) {
     ];
 });
 
+$factory->define(App\Models\Complaint::class, function (Faker $faker) {
+
+    return [
+        
+        'name' => $faker->name,
+        'phone' => "01010079798",
+        'email' =>$faker->safeEmail,
+        'message'=>$faker->text(50)
+        
+    ];
+});
+
+
 $factory->define(App\Models\Partner::class, function (Faker $faker) {
 
     return [        

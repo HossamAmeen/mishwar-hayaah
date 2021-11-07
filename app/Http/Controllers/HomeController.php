@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\News;
 use App\Models\Article;
 use App\Models\Gallery;
-use App\Models\Question;
+use App\Models\Complaint;
 use App\Models\Clinic;
 use App\Models\Service;
 use App\Models\Drug;
@@ -253,23 +253,23 @@ class HomeController extends Controller
     {
         $pageTitle  = "تواصل معانا";
         if ($request->isMethod('post')) {
-
+            Complaint::create($request->all());
             $rules = $this->contactFormValidation();
             
             $this->validate($request, $rules );
             
-            $data=[
-                'name' =>  $request->name,
-                'phone' => $request->phone,
-                'message'=>$request->message,
-            ];
-            // return "test";
-            Mail::send('front-end.en.contact_mail',$data,function($message) use ($data){
+            // $data=[
+            //     'name' =>  $request->name,
+            //     'phone' => $request->phone,
+            //     'message'=>$request->message,
+            // ];
+            // // return "test";
+            // Mail::send('front-end.en.contact_mail',$data,function($message) use ($data){
 
-                // $message->from( $data['email'] , $data['name']);
-                $message->to("hr@mishwarhayaah.org");
-                $message->subject("contact us");
-            });
+            //     // $message->from( $data['email'] , $data['name']);
+            //     $message->to("hr@mishwarhayaah.org");
+            //     $message->subject("contact us");
+            // });
             $request->session()->flash('action', 'تم الارسال بنجاح');
             return "test";
             return redirect()->back();
